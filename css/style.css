@@ -1,17 +1,25 @@
 @charset "utf-8"
 
+/*공통요소 inner*/
+.inner {width: 1050px; background: red; margin: 0 auto;}
 
-.inner {width: 1050px; margin: 0 auto;}
+
+
+/*section. routine*/ 
+section.routine {width: 100%; padding:100px 0; overflow:hidden;}
+section.routine .title {width: 100px; background: blue; text-align: center; color:#1b3413;}
+
 
 
 
 
 /*section. problems*/
 
-section.problems {width: 100%; padding: 80px; text-align: center;}
+section.problems {width: 100%; padding: 80px 0; text-align: center; background: #f9f9f9;}
 section.problems .inner .title {margin-bottom: 30px; color: #333;}
 section.problems .inner .title h2 {font-size:30px; text-transform: uppercase; margin-bottom: 10px;}
 section.problems .inner .title p {font-size: 20px;}
-section.problems .inner ul {width:100%;background: yellow; overflow: hidden;}
+section.problems .inner ul {width:100%; overflow: hidden;}
 section.problems .inner ul li{float: left; width: 25%; text-align: center;}
-section.problems .inner ul li .icon{}
+section.problems .inner ul li .icon{margin: 0 auto 20px;}
+section.problems .inner ul li h3{font-size: 400;}
