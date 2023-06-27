@@ -1,4 +1,24 @@
-@charset "utf-8"
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@400;700&display=swap');
+
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+img {vertical-align: middle; }
+
+.font{font-family: 'Nanum Myeongjo', serif;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 16px; color:#7e7e7e;}
+.wrap{width: 100%; margin: 0 auto; overflow: hidden;}  
+
+section.visual {width: 100%; position: relative;}
+section.visual img{width: 100%;}
+section.visual .maintitle{position: absolute; left: 50%; top: 20%; transform: translate(-50%); text-align:center; color:#222; }
+section.visual .maintitle h2{font-size: 68px; letter-spacing: -3px; text-transform: uppercase; margin-bottom: 10px;}
+section.visual .maintitle p{font-size: 19px; color: #1b3413;}
+section.visual .maintitle h2 span{font-size: 50px;}
+
+5-2들어야함.
 
 /*공통요소 inner*/
 .inner {width: 1050px; background: red; margin: 0 auto;}
