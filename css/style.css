@@ -58,3 +58,9 @@ section.problems .inner ul {width:100%; overflow: hidden;}
 section.problems .inner ul li{float: left; width: 25%; text-align: center;}
 section.problems .inner ul li .icon{margin: 0 auto 20px;}
 section.problems .inner ul li h3{font-size: 14px; font-weight: 400;}
+
+/*section.detail*/
+section.detail{width: 100%;}
+section.detail .inner h2 {font-size: 20px; margin-bottom: 15px; color:#333;}
+section.detail .inner table {width: 100%; border-top: 4px solid #eee;}
+section.detail .inner table td{padding: 12px 20px; box-sizing: border-box; font-size: 14px;}
